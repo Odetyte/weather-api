@@ -1,4 +1,4 @@
-Welcome to weather-api app created by me.
+Welcome to weather-api app created by me. *[click here](http://countries-weather-api.herokuapp.com/)* to check weather at your country.
 
 **Credits**
 
