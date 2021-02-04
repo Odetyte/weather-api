@@ -13,7 +13,7 @@ const App = () => {
 
   useEffect(() => {
     axios
-      .get('https://restcountries.eu/rest/v2/all')
+      .get('http://restcountries.eu/rest/v2/all')
       .then(response => {
         setCountries(response.data)
       })
@@ -51,8 +51,8 @@ const App = () => {
     onClick = {
       displayCountry
     }
-    /> <
-    />
+    /> < /
+    >
   )
 }
 
