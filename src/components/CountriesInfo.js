@@ -19,7 +19,7 @@ const CountriesInfo = ({
 
   useEffect(() => {
     axios
-      .get(`https://api.weatherstack.com/current?access_key=${API_KEY}&query=${capital}`)
+      .get(`http://api.weatherstack.com/current?access_key=${API_KEY}&query=${capital}`)
       .then(response => {
         setWeather(response.data)
       })

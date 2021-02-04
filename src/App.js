@@ -51,7 +51,8 @@ const App = () => {
     onClick = {
       displayCountry
     }
-    /> < / >
+    /> <
+    />
   )
 }
 
