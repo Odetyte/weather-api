@@ -5,9 +5,52 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #6a8fa6;
+  letter-spacing: 1px;
+  background-image: url(./images/forest.jpg);
+  color: #fff;
+  font-weight: 700;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#root {
+  text-align: center;
+  margin-top: 5em;
+}
+
+li {
+  list-style: none;
+  margin-top: 1em;
+  font-size: 18px;
+}
+
+#countries-search {
+  border: solid 5px #fff;
+  border-radius: 7px;
+  outline: none;
+}
+
+h1,
+h2 {
+  color: #ffffd8;
+}
+
+button {
+  background: linear-gradient(to right, #567689, #345f7a);
+  cursor: pointer;
+  border: solid 1px #fff;
+  color: #fff;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+@media(min-width: 1000px) {
+  #root {
+    margin-top: 10em;
+  }
 }
