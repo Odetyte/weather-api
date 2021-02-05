@@ -11,6 +11,7 @@ const Filter = ({
     for: < /i> <
     input type = "text"
     id = "countries-search"
+    placeholder = "type any country"
     value = {
       value
     }

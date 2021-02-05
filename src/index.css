@@ -32,6 +32,8 @@ li {
   border: solid 5px #fff;
   border-radius: 7px;
   outline: none;
+  opacity: 0.5;
+  font-style: italic;
 }
 
 h1,
